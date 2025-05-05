@@ -195,3 +195,81 @@ background-color: rgb(207, 115, 115);
     height: 100px;
   }
 }
+/* css for login form */
+.form-main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  width: 100%;
+}
+
+.password-wrapper span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #666;
+}
+
+.forgot-link {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #007BFF;
+  cursor: pointer;
+}
+
+.user-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.user-btn:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 480px) {
+  .form-main {
+    padding: 16px;
+  }
+
+  .text,
+  .user-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .password-wrapper span {
+    right: 8px;
+  }
+}

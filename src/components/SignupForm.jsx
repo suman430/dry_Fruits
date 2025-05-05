@@ -42,14 +42,7 @@ const[formData,setFormData] =useState({
   return (
     <div className='content'>
     
-       <div className='btn1'>
-<button  className='user-btn'>
-  New User
-</button>
-<button  className='user-btn'>
-  Old User
-</button>
-       </div>
+      
 
 
 <form onSubmit={submitHandler} className='form-main'>

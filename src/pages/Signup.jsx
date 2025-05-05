@@ -5,9 +5,9 @@ import signup from '../assets/signup.png'
 export default function Signup({setIsLoggedIn}) {
   return (
     <Template
-      title="Join the millions learning to code with StudyNotion for free"
-      des1="Build skills for today, tomorrow, and beyond."
-      des2="Education to future-proof your career."
+      title="BUY GET ONE FREE!!"
+      des1="onsidered an icon among Indian sweets, Gulaab Jamun holds a special place in the hearts of Indians. These melt-in-your-mouth deep-fried dough balls soaked in sugar syrup are a staple on every festive menu."
+      des2="."
       image={signup}
       formtype="signup"
       setIsLoggedIn={setIsLoggedIn}
